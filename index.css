@@ -1,0 +1,143 @@
+ /*concernant tout le document*/
+*{
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif    ;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0;
+}
+
+
+/* pour la barre de navigation */
+.css-15wp9oh {
+    grid-gap: 20px;
+    grid-column-end: span 6;
+}
+.css-15wp9oh {
+    margin:70px 0px 0px 200px;
+    height: 80px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    grid-column-start: 2;
+    grid-gap: 10px;
+    grid-column-end: span 3;
+}
+
+.menu{
+    outline-color: rgba(31, 31, 133, 0.808);
+    float: right;
+    width: 100%;
+    background-color:black;
+    height: 200px;
+    font-size: 15px;
+    line-height: 0.7;
+    font-weight: 600;
+    letter-spacing: 0.109em;
+    font-style: normal;
+}
+li :hover{
+    cursor: pointer;
+    padding: 5px 7px 5px 7px;
+    border-radius: 3px;
+    background-color:rgba(6, 6, 48, 0.808);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.css-q989we{
+    width: 20%;
+}
+.menualigne{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:1px 30px 1px 30px;
+}
+li{
+    margin: 0 0 0 10px;
+    padding: 5px 30px 5px 30px;
+    list-style: none;
+}
+
+
+/*le contenu de la page et la video*/
+#content{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#content video{
+    position: absolute;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+#content .content{
+    position: relative;
+    z-index: 1;
+    max-width: 100%;
+    text-align: center;
+}
+p{
+    margin-top: 100px;
+    padding: 0px 200px;
+    font-size: 22px;
+    line-height: 1.6;
+    font-weight: 600;
+    letter-spacing: 0.059em;
+    color: whitesmoke;
+}
+#content .content h1{
+    margin: 15% 21% 5% 21% ;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 2.4em;
+    line-height: 1.6;
+    letter-spacing: 0.327em;
+    font-weight: 700;
+    font-style: normal;
+}
+#content .menu{
+    list-style: none;
+    text-align: center;
+    z-index: 2;
+}
+
+
+
+/*pour le pied de page (ou footer)*/
+#pied {
+    height: 300px;
+    background-color: black;
+    text-align: center;
+}
+#pied p{
+    margin-top: 50px;
+    padding: 0px 200px;
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 600;
+    letter-spacing: 0.059em;
+    color: whitesmoke;
+}
+quote{
+    color: white;
+    font-size: 19px;
+    line-height: 1.5;
+    letter-spacing: 0.5em;
+    font-weight: 200;
+    margin: 10% 1% 1% 1% ;
+
+}

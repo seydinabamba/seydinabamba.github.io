@@ -1,0 +1,167 @@
+/*concernant tout le document*/
+*{
+       text-align: center;
+       box-sizing: border-box;
+       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif    ;
+       margin: 0px;
+       padding: 0px;
+   }
+   body{
+       margin: 0;
+   }
+   
+   
+   /* pour la barre de navigation */
+   .css-15wp9oh {
+       grid-gap: 20px;
+       grid-column-end: span 6;
+   }
+   .css-15wp9oh {
+       margin:70px 0px 0px 200px;
+       height: 80px;
+       display: flex;
+       -webkit-box-align: center;
+       align-items: center;
+       grid-column-start: 2;
+       grid-gap: 10px;
+       grid-column-end: span 3;
+   }
+   
+   .menu{
+       outline-color: rgba(31, 31, 133, 0.808);
+       float: right;
+       width: 100%;
+       background-color:black;
+       height: 200px;
+       font-size: 15px;
+       line-height: 0.7;
+       font-weight: 600;
+       letter-spacing: 0.109em;
+       font-style: normal;
+   }
+   li :hover{
+       cursor: pointer;
+       padding: 5px 7px 5px 7px;
+       border-radius: 3px;
+       background-color:rgba(6, 6, 48, 0.808);
+   }
+   a{
+       text-decoration: none;
+       color: white;
+   }
+   .css-q989we{
+       width: 20%;
+   }
+   .menualigne{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+       padding:1px 30px 1px 30px;
+   }
+   li{
+       margin: 0 0 0 10px;
+       padding: 5px 30px 5px 30px;
+       list-style: none;
+   }
+   
+   /*contenu de la page*/
+   .Btexte{
+       top: 0;
+       bottom: 0;
+   height:inherit;
+   width: 48%;
+   float: left;
+   font-size: 26px;
+   line-height: 2.1;
+   letter-spacing: -0.019em;
+   font-weight: 130;
+   font-style: normal
+   }
+   .Bimg{
+       width: 100%;
+   }
+   .entete2{
+       height: 800px;
+       background-size: cover;
+       background-image: url(nyc.jpeg   );
+   }
+   h1{
+       padding: 350px 0px 100px 0px;
+       color: white;
+       font-size: 72px;
+       line-height: 2;
+       letter-spacing: 0.6em;
+       font-weight: 500;
+   }
+   h2{
+       padding: 300px 0px 10px 0px;
+       color: white;font-size: 50px;
+       line-height: 2;
+       letter-spacing: 0.2em;
+       font-weight: 500;
+   }
+   .contenu1{
+       height: 600px
+   }
+   .premier{
+       margin: 0px 100px
+   }
+   .Bimage{
+       width: 48%;
+       height: inherit;
+       float: right;
+       background-size: cover;
+       background-image: url(villeny.jpeg);
+   }
+   .rowx1{
+       height: 700px;
+       background-size: cover;
+   }
+   #lieu1{
+       background-image: url(building.jpeg);
+   }
+   #lieu2{
+       background-image: url(avenue.jpeg);
+   }
+   #lieu3{
+       background-image: url(statue.jpeg);
+   }
+   #lieu4{
+       background-image: url(quartier.jpeg);
+   }
+   #lieu5{
+       background-image: url(square.jpeg);
+   }
+   .textebody{
+       padding: 10px 33px;
+       color: white;
+       font-size: 21px;
+       line-height: 1;
+       letter-spacing: 0.1em;
+       font-weight: 400;
+   }
+   
+   /*pied de page*/
+   #pied {
+       height: 300px;
+       background-color: black;
+       text-align: center;
+   }
+   #pied p{
+       margin-top: 50px;
+       padding: 0px 200px;
+       font-size: 15px;
+       line-height: 1.6;
+       font-weight: 600;
+       letter-spacing: 0.059em;
+       color: whitesmoke;
+   }
+   quote{
+       color: white;
+       font-size: 19px;
+       line-height: 1.5;
+       letter-spacing: 0.5em;
+       font-weight: 200;
+       margin: 10% 1% 1% 1% ;
+   
+   }
